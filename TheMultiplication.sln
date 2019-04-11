@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMultiplication", "TheMultiplication\TheMultiplication.csproj", "{456D305B-EB20-48D3-A530-FE3C9E976D2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456D305B-EB20-48D3-A530-FE3C9E976D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456D305B-EB20-48D3-A530-FE3C9E976D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456D305B-EB20-48D3-A530-FE3C9E976D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456D305B-EB20-48D3-A530-FE3C9E976D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2560731A-498A-48D5-9C4F-4590B40A6563}
+	EndGlobalSection
+EndGlobal
