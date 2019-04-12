@@ -1,7 +1,7 @@
 ﻿/// <reference path="phaser.d.ts"/>
 
-var gameWidth = 800;
-var gameHeight = 600;
+var gameWidth = 384;
+var gameHeight = 224;
 
 var config = {
     type: Phaser.AUTO,
@@ -23,6 +23,28 @@ function preload() {
 }
 
 function create() {
-    this.add.image(400, 300, 'bg-1');
+
+    let game = new Game(this);
+    game.create();
+    
 }
+
+class Game {
+
+    game: any;
+    constructor(game: any) {
+        this.game = game;
+    }
+
+    create() {
+        this.createBackground();
+    }
+
+    createBackground() {
+        this.game.add.image(gameWidth / 2, gameHeight / 2, 'bg-1');
+    }
+
+}
+
+
 
