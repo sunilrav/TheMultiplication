@@ -27,7 +27,8 @@ var Game = /** @class */ (function () {
         this.createBackground();
     };
     Game.prototype.createBackground = function () {
-        this.game.add.image(gameWidth / 2, gameHeight / 2, 'bg-1');
+        //this.game.add.image(gameWidth / 2, gameHeight / 2, 'bg-1');
+        this.game.add.tileSprite(gameWidth / 2, gameHeight / 2, gameWidth, gameHeight, 'bg-1');
     };
     return Game;
 }());
